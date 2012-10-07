@@ -1,5 +1,5 @@
 {>master/}
-{<title}dustspress{/title}
+{<title}{content.title}{/title}
 {<main}
   <p>Hello world!</p>
 {/main}

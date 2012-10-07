@@ -1,5 +1,9 @@
 var controller = 'index';
 exports[controller] = function(req, res) {
-  model = {};
+
+  // load model from models dir
+  var model = require('../models/' + controller + '.js')[controller]();
+
+  // render page
   res.render(controller, model);
 };
