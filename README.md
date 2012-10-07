@@ -1,11 +1,12 @@
 dustspress web framework
 ========================
 
-Sample [Node.js](http://nodejs.org) Express app using Dust.js (LinkedIn fork) templating.
+All the wiring you need to build a [Node.js](http://nodejs.org)-based [Express](http://expressjs.com) app using [Dust.js (LinkedIn fork)](http://linkedin.github.com/dustjs/) templating.
 
 dependencies
 ============
 
+- Node.js: [nodejs.org](http://nodejs.org)
 - Express web server for Node.js: [expressjs.com](http://expressjs.com)
 - Dust.js LinkedIn fork: [linkedin.github.com/dustjs](http://linkedin.github.com/dustjs/)
 - Klei-Dust (adds Dust.js support to Express): [npmjs.org/package/klei-dust](https://npmjs.org/package/klei-dust)
