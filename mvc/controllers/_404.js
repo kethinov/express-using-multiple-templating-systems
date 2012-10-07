@@ -2,10 +2,11 @@ var controller = '_404';
 exports[controller] = function(req, res) {
 
   // load model from models dir
-  var model = require('../models/' + controller + '.js')[controller]();
+  var model = require('../models/' + controller + '.js')[controller](),
+      content = model.content;
 
   // add req to the model
-  model.req = req;
+  model.content.details = content.details1 + req.url + content.details2;
 
   // send 404 header
   res.status(404);

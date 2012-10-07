@@ -1,5 +1,5 @@
 {>master/}
 {<title}{content.title}{/title}
 {<main}
-  <p>Hello world!</p>
+  <p>{content.helloworld}</p>
 {/main}
