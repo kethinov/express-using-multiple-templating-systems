@@ -1,0 +1,6 @@
+{>master/}
+{<title}404 Not Found{/title}
+{<main}
+  <h1>Not Found</h1>
+  <p>The requested URL {req.url} was not found on this server.</p>
+{/main}

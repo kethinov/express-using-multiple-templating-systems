@@ -1,0 +1,13 @@
+{
+  "name": "dustspress-sample-app",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "*",
+    "klei-dust": "*",
+    "dustjs-linkedin": "*"
+  }
+}
