@@ -1,7 +1,7 @@
-dustspress web framework
-========================
+dustspress MVC web framework
+============================
 
-All the wiring you need to build a [Node.js](http://nodejs.org)-based [Express](http://expressjs.com) app using [Dust.js (LinkedIn fork)](http://linkedin.github.com/dustjs/) templating.
+All the wiring you need to build a [Node.js](http://nodejs.org)-based [Express](http://expressjs.com) app following the [MVC](http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) design pattern using [Dust.js (LinkedIn fork)](http://linkedin.github.com/dustjs/) templating.
 
 dependencies
 ============
