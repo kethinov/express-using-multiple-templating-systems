@@ -1,5 +1,5 @@
 /**
- * @description:  dustspress framework
+ * @description:  dustspress web framework
  * @author:       Eric Newport (kethinov)
  * @license:      Creative Commons Attribution 3.0 Unported License http://creativecommons.org/licenses/by/3.0/deed.en_US
  */

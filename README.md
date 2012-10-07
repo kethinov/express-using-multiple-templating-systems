@@ -1,16 +1,16 @@
-dustspress
-==========
+dustspress web framework
+========================
 
 Sample [Node.js](http://nodejs.org) Express app using Dust.js (LinkedIn fork) templating.
 
-Dependencies
+dependencies
 ============
 
 - Express web server for Node.js: [expressjs.com](http://expressjs.com)
 - Dust.js LinkedIn fork: [linkedin.github.com/dustjs](http://linkedin.github.com/dustjs/)
 - Klei-Dust (adds Dust.js support to Express): [npmjs.org/package/klei-dust](https://npmjs.org/package/klei-dust)
 
-How to run
+how to run
 ==========
 
 (This tutorial assumes you're working in a bash shell.)
@@ -31,3 +31,8 @@ Run app. (May require sudo.)
 Run on a different port.
 
 	export NODE_PORT=43711 && node app.js
+	
+license
+=======
+
+Creative Commons Attribution 3.0 Unported License [creativecommons.org/licenses/by/3.0/deed.en_US](http://creativecommons.org/licenses/by/3.0/deed.en_US)
