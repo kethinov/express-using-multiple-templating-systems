@@ -5,7 +5,7 @@ exports[controller] = function(req, res) {
   var model = require('../models/' + controller + '.js')[controller](),
       content = model.content;
 
-  // add req to the model
+  // add to the model
   model.content.details = content.details1 + req.url + content.details2;
 
   // send 404 header
