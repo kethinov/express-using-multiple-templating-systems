@@ -36,7 +36,7 @@ exports.startServer = function(customConfigs) {
     kleiDust.setOptions({root: viewsPath});
     app.set('views', viewsPath);
   
-    // set template engine to dustjs-linkedin (the default fork of dust.js included in consolidate.js)
+    // set template engine to dustjs-linkedin
     app.engine('dust', kleiDust.dust);
     app.set('view engine', 'dust');
 
