@@ -9,10 +9,10 @@
 exports.startServer = function(customConfigs) {
 
   // modules
-  var http = require('http'),               // node's http server
-      express = require('express'),         // express http server
-      kleiDust = require('klei-dust'),      // dust support for express
-      fs = require('fs'),                   // utility library for filesystem access
+  var http = require('http'),                       // node's http server
+      express = require('express'),                 // express http server
+      kleiDust = require('klei-dust'),              // dust support for express
+      fs = (fs !== undefined) ? fs : require('fs'), // utility library for filesystem access
   
   // app vars
       viewsPath = __dirname + '/views/',                  // where the views are located
