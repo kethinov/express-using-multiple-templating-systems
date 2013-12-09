@@ -1,39 +1,35 @@
-dustspress MVC web framework
-============================
+dustspress
+===
 
-All the wiring you need to build a [Node.js](http://nodejs.org)-based [Express](http://expressjs.com) app following the [MVC](http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) design pattern using [Dust.js (LinkedIn fork)](http://linkedin.github.com/dustjs/) templating.
+This is a sample [Node.js](http://nodejs.org)-based [Express](http://expressjs.com) app template using [Dust.js](http://linkedin.github.com/dustjs/) for HTML templating.
 
-dependencies
-============
+**Use this only for quick and dirty prototyping.**
 
-- Node.js: [nodejs.org](http://nodejs.org)
-- Express web server for Node.js: [expressjs.com](http://expressjs.com)
-- Dust.js LinkedIn fork: [linkedin.github.com/dustjs](http://linkedin.github.com/dustjs/)
-- Klei-Dust (adds Dust.js support to Express): [npmjs.org/package/klei-dust](https://npmjs.org/package/klei-dust)
+This is a very rudimentary sample app. If you're developing a serious application, look into alternatives.
 
 how to run
 ==========
 
 (This tutorial assumes you're working in a bash shell.)
 
-Clone repo.
+Clone repo:
 
 	git clone git@github.com:kethinov/dustspress.git
 	cd dustspress
 
-Install dependencies. (May require sudo.)
+Install dependencies:
 
-	npm install .
+	npm install
 	
-Run app. (May require sudo.)
+Run app:
 
 	node app.js
 	
-Run on a different port.
+Run on a different port:
 
 	export NODE_PORT=43711 && node app.js
 	
 license
 =======
 
-Creative Commons Attribution 3.0 Unported License [creativecommons.org/licenses/by/3.0/deed.en_US](http://creativecommons.org/licenses/by/3.0/deed.en_US)
+All original code in dustspress is licensed under the [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). Commercial and noncommercial use is permitted with attribution.
