@@ -1,4 +1,4 @@
-dustspress
+dustspress [![Dependency Status](https://gemnasium.com/kethinov/dustspress.png)](https://gemnasium.com/kethinov/dustspress) [![Gittip](http://img.shields.io/gittip/kethinov.png)](https://www.gittip.com/kethinov/)
 ===
 
 This is a sample [Node.js](http://nodejs.org)-based [Express](http://expressjs.com) app template using [Dust.js](http://linkedin.github.com/dustjs/) for HTML templating.
