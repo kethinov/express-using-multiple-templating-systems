@@ -1,14 +1,18 @@
 {
   "name": "dustspress-sample-app",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
     "start": "node app.js"
   },
   "dependencies": {
-    "express": "*",
-    "adaro": "*",
-    "dustjs-linkedin": "*",
-    "dustjs-helpers": "*"
+    "adaro": "~0.1.5",
+    "body-parser": "~1.2.0",
+    "compression": "~1.0.2",
+    "dustjs-helpers": "~1.2.0",
+    "dustjs-linkedin": "~2.3.5",
+    "express": "~4.3.1",
+    "method-override": "~1.0.0",
+    "morgan": "~1.1.1"
   }
 }
