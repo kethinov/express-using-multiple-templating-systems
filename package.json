@@ -11,7 +11,7 @@
     "compression": "~1.0.8",
     "dustjs-helpers": "~1.2.0",
     "dustjs-linkedin": "~2.4.0",
-    "express": "~4.5.0",
+    "express": "~4.5.1",
     "method-override": "~2.0.2",
     "morgan": "~1.1.1"
   }
