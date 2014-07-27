@@ -7,12 +7,12 @@
   },
   "dependencies": {
     "adaro": "~0.1.5",
-    "body-parser": "~1.4.3",
-    "compression": "~1.0.8",
+    "body-parser": "~1.5.0",
+    "compression": "~1.0.9",
     "dustjs-helpers": "~1.2.0",
     "dustjs-linkedin": "~2.4.0",
     "express": "~4.6.1",
     "method-override": "~2.1.1",
-    "morgan": "~1.1.1"
+    "morgan": "~1.2.0"
   }
 }
