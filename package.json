@@ -1,6 +1,6 @@
 {
-  "name": "dustspress-sample-app",
-  "version": "0.2.0",
+  "name": "put-clever-name-here",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "node app.js"
@@ -11,8 +11,10 @@
     "compression": "^1.0.9",
     "dustjs-helpers": "^1.2.0",
     "dustjs-linkedin": "^2.4.0",
+    "ejs": "^1.0.0",
     "express": "^4.7.2",
     "method-override": "^2.1.2",
-    "morgan": "^1.2.2"
+    "morgan": "^1.2.2",
+    "teddy": "^0.3.3"
   }
 }

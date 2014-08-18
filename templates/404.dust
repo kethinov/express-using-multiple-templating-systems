@@ -1,6 +1,0 @@
-{>master/}
-{<title}{content.title}{/title}
-{<main}
-  <h1>{content.heading}</h1>
-  <p>{content.details}</p>
-{/main}
