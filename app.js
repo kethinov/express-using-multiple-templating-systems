@@ -3,12 +3,12 @@ var express = require('express'), // express http server
     morgan = require('morgan'), // express logger
     bodyParser = require('body-parser'), // express body parser
     methodOverride = require('method-override'), // express body parser
-    
+
     // templating
-    adaro = require('adaro'), // dust support for express
-    ejs = require('ejs'), // ejs
-    teddy = require('teddy'), // teddy
-    
+    teddy = require('teddy'), // teddy templating
+    ejs = require('ejs'), // ejs templating
+    adaro = require('adaro'), // dust templating
+
     // app
     app = express(), // initialize express
     globalModel = {
