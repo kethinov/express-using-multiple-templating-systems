@@ -1,18 +1,14 @@
 express-using-multiple-templating-systems [![Dependency Status](https://gemnasium.com/kethinov/express-using-multiple-templating-systems.png)](https://gemnasium.com/kethinov/express-using-multiple-templating-systems) [![Gittip](http://img.shields.io/gittip/kethinov.png)](https://www.gittip.com/kethinov/)
 ===
 
-This is a sample [Node.js](http://nodejs.org)-based [Express](http://expressjs.com) app using multiple templating systems.
+This is a sample vanilla [Express](http://expressjs.com) app which demonstrates how to configure Express to use multiple templating systems.
 
-**Use this only for quick and dirty prototyping.**
-
-This is a very rudimentary sample app. If you're developing a serious application, look into alternatives.
+The three templating systems integrated are [Teddy](https://github.com/kethinov/teddy) (.html), [ejs](https://github.com/visionmedia/ejs) (.ejs), and [dustjs-linkedin](http://linkedin.github.io/dustjs) (.dust).
 
 How to run
 ==========
 
-(This tutorial assumes you're working in a bash shell.)
-
-Clone repo:
+Clone this repo:
 
 	git clone git@github.com:kethinov/express-using-multiple-templating-systems.git
 	cd express-using-multiple-templating-systems
