@@ -6,7 +6,7 @@ This is a sample vanilla [Express](http://expressjs.com) app which demonstrates 
 The three templating systems integrated are [Teddy](https://github.com/kethinov/teddy) (.html), [ejs](https://github.com/visionmedia/ejs) (.ejs), and [dustjs-linkedin](http://linkedin.github.io/dustjs) (.dust).
 
 How to run
-==========
+===
 
 Clone this repo:
 
