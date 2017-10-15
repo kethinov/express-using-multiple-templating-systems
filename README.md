@@ -1,4 +1,4 @@
-express-using-multiple-templating-systems [![Dependency Status](https://gemnasium.com/kethinov/express-using-multiple-templating-systems.png)](https://gemnasium.com/kethinov/express-using-multiple-templating-systems) [![Gittip](http://img.shields.io/gittip/kethinov.png)](https://www.gittip.com/kethinov/)
+express-using-multiple-templating-systems
 ===
 
 This is a sample vanilla [Express](http://expressjs.com) app which demonstrates how to configure Express to use multiple templating systems.
