@@ -15,8 +15,30 @@ var express = require('express'), // express http server
       content: {
         title: 'Hello World!',
         helloworld: 'Hello World!'
-      }
-    };
+      },
+      largeDataSet: []
+    },
+    i,
+    charList = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789',
+    cl = charList.length;
+
+function randChars(n) {
+  var i, s = '';
+  for (i = 0; i < n; i++) {
+    s += charList.charAt(Math.floor(Math.random() * cl));
+  }
+  return s;
+}
+
+for (i = 0; i < 5000; i++) {
+  globalModel.largeDataSet.push({
+    one: randChars(64),
+    two: randChars(64),
+    three: randChars(64)
+  });
+}
+
+console.log(globalModel);
 
 // set port
 app.set('port', process.env.NODE_PORT || 8000);
@@ -62,30 +84,34 @@ app.route('/').all(function(req, res) {
 
 // page using teddy
 app.route('/teddy').all(function(req, res) {
+  var start, result, end, time;
+  start = new Date().getTime();
   res.render('index.html', globalModel);
+  end = new Date().getTime();
+  time = end - start;
+  console.log('teddy time: ', time);
 });
 
 // page using ejs
 app.route('/ejs').all(function(req, res) {
+  var start, result, end, time;
+  start = new Date().getTime();
   res.render('index.ejs', globalModel);
+  end = new Date().getTime();
+  time = end - start;
+  console.log('ejs time: ', time);
 });
 
 // page using dust
 app.route('/dust').all(function(req, res) {
+  var start, result, end, time;
+  start = new Date().getTime();
   res.render('index.dust', globalModel);
+  end = new Date().getTime();
+  time = end - start;
+  console.log('dust time: ', time);
 });
 
-// 404 page
-app.route('*').all(function(req, res) {
-  res.render('404', {
-    content: {
-      title: '404 Not Found',
-      heading: 'Not Found',
-      details1: 'The requested URL ',
-      details2: ' was not found on this server.'
-    }
-  });
-});
 
 // start app
 app.listen(app.get('port'), function() {

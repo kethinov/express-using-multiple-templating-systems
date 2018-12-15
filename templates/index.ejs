@@ -10,7 +10,14 @@
   <link rel='stylesheet' type='text/css' href='/css/main.css'>
 </head>
 <body>
-  <p><%= content.helloworld %></p>
+  <div>
+    <% for(var i=0; i<largeDataSet.length; i++) {%>
+      <p><%= i %></p>
+      <p><%= largeDataSet[i].one %></p>
+      <p><%= largeDataSet[i].two %></p>
+      <p><%= largeDataSet[i].three %></p>
+    <% } %>
+  </div>
   <script src='/js/main.js'></script>
 </body>
 </html>

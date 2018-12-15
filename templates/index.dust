@@ -1,5 +1,12 @@
 {>master/}
 {<title}{content.title}{/title}
 {<main}
-  <p>{content.helloworld}</p>
-{/main}
+  <div>
+    {#largeDataSet}
+      <p>{@idx}{.}{/idx}</p>
+      <p>{one}</p>
+      <p>{two}</p>
+      <p>{three}</p>
+    {/largeDataSet}
+  </div>
+</include>{/main}
